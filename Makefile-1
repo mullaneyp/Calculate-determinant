@@ -1,0 +1,5 @@
+all:
+	g++ main.cpp readMatrix.hpp readMatrix.cpp determinant.hpp determinant.cpp -o 	matrix
+
+clean:
+	rm *o matrix
